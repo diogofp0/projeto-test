@@ -1,0 +1,137 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin: 0;
+}
+
+/*.circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 5%;
+    background-color:rgb(48, 135, 248);
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    cursor:pointer;
+    font-size: 25px;
+    color:white;
+    border-color:rgb(2, 29, 82);
+    font-family:Courier New;
+}*/
+
+a {
+    text-decoration:none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/* Estilo para a tabela */
+.agenda {
+    width: 400%;
+    height:100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(2, 29, 82);
+    color:white;
+    font-family:Courier New;
+}
+
+.agenda th, .agenda td {
+    height:50%;
+    border: 2px solid rgb(2, 29, 82);
+    padding: 30px;
+    text-align:center;
+    color:white;
+    font-family:Courier New;
+}
+
+/* Estilo para as células de dias da semana */
+.agenda th {
+    background-color: rgb(48, 135, 248);
+}
+
+/* Estilo para as células de tarefas */
+.agenda td {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Estilo para destacar as tarefas concluídas */
+.agenda td.completed {
+    background-color: white;
+}
+
+.tituloagenda{width:50%;
+    height:100%;
+    border-collapse:collapse;
+    border: 2px solid  rgb(2, 29, 82);
+    text-align: center;
+    background-color:rgb(48, 135, 248);
+    color:white
+    font-family:Courier New;
+}
+
+
+
+.botão{width: 400px;
+    height: 100%;
+    background-color:rgb(48, 135, 248);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    font-weight:bold;
+    font-family:Courier New;
+}
+
+
+.background2 {
+    background-image:none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(48, 135, 248); /* Cor do texto */
+    font-family:Courier New;
+    font-size:20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-family:Courier New;
+}
+
+button {
+    background-color: rgb(48, 135, 248); /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(114, 172, 248); /* Cor de fundo do botão quando o cursor estiver em cima */
+}
+
+
+select {
+    
+    select {
+    padding: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}

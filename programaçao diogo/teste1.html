@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Teste1</title>
+</head>
+<body>
+    <div class="background2">
+        <h1>Bem vindo a tela inicial</h1>
+        <label for="diasDaSemana">Escolha um dia:</label>
+        <select id="diasDaSemana">
+        <option value="segunda">Segunda-feira</option>
+        <option value="terca">Terça-feira</option>
+        <option value="quarta">Quarta-feira</option>
+        <option value="quinta">Quinta-feira</option>
+        <option value="sexta">Sexta-feira</option>   
+        </select>
+        <button id="redirecionar">Ir para agenda</button>
+    <div class="background">
+        <a href="file:///C:/Users/Root/OneDrive/Documentos/programa%C3%A7ao%20diogo/segunda.html">
+    </div>
+
+    <script>
+         document.getElementById('redirecionar').addEventListener('click', function() {
+            var selectedDay = document.getElementById('diasDaSemana').value;
+            if (selectedDay) {
+                var url = selectedDay + '.html'; // Supondo que os arquivos da tabela tenham nomes como "segunda.html", "terca.html", etc.
+                window.location.href = url; // Redireciona o usuário para a página da tabela
+            }
+        });
+    </script>
+    </script>
+</body>
+</html>
+
